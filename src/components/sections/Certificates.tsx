@@ -13,6 +13,7 @@ const testimonialsData = [
     company: "Udemy",
     title: "Entenda o Inertia e crie com Laravel, Vue uma SPA",
     cert: true,
+    link:"",
   },
 
   {
@@ -20,6 +21,7 @@ const testimonialsData = [
     company: "Digital Innovation One",
     title: "Eduzz Fullstack Developer",
     cert: true,
+    link:"",
   },
 
   {
@@ -27,6 +29,8 @@ const testimonialsData = [
     company: "Digital Innovation One",
     title: "Microsserviços e Integrações com Node.js",
     cert: true,
+    link:"https://www.dio.me/certificate/56E5E50E",
+
   },
   
   {
@@ -34,6 +38,8 @@ const testimonialsData = [
     company: "Digital Innovation One",
     title: "Desenvolvimento de aplicações para internet com ReactJS",
     cert: true,
+    link:"https://www.dio.me/certificate/1A138DC4",
+    
   },
   
   {
@@ -41,6 +47,8 @@ const testimonialsData = [
     company: "Digital Innovation One",
     title: "Explorando o Estilo Arquitetural REST com Node.js",
     cert: true,
+    link:"https://www.dio.me/certificate/4078CF70",
+
   },
 
   {
@@ -48,6 +56,8 @@ const testimonialsData = [
     company: "Digital Innovation One",
     title: "Projetos ágeis com SCRUM",
     cert: true,
+    link:"https://www.dio.me/certificate/8A6BE5C9/share",
+
   },
 
   {
@@ -55,6 +65,8 @@ const testimonialsData = [
     company: "Digital Innovation One",
     title: "Desenvolvimento avançado com JavaScript ES6",
     cert: true,
+    link:"https://www.dio.me/certificate/4C5B7455",
+
   },
 
   {
@@ -62,6 +74,8 @@ const testimonialsData = [
     company: "Digital Innovation One",
     title: "Trabalhando com Componentes em React",
     cert: true,
+    link:"https://www.dio.me/certificate/53113521",
+
   },
 
   {
@@ -69,6 +83,8 @@ const testimonialsData = [
     company: "Digital Innovation One",
     title: "Práticas avançadas em projetos com ReactJS",
     cert: true,
+    link:"https://www.dio.me/certificate/13840CAF",
+
   },
 
   {
@@ -76,6 +92,8 @@ const testimonialsData = [
     company: "Digital Innovation One",
     title: "Node.js com Bancos de Dados Relacionais (SQL)",
     cert: true,
+    link:"https://www.dio.me/certificate/3CD160D9",
+
   },
 
   {
@@ -83,6 +101,8 @@ const testimonialsData = [
     company: "Digital Innovation One",
     title: "Competências: Express.js Node.js",
     cert: true,
+    link:"",
+
   },
 ];
 
@@ -193,7 +213,8 @@ const TestimonialSlider = () => {
                 <div className="mt-10" >
                   <Link
                   id="btn"
-                    href="#contact"
+                    href={testimonial.link}
+                    target="_blank"
                     className={testimonial.cert ? enabled_link : disabled_link}
                   >
                     Certificate{" "}
