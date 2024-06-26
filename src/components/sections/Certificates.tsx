@@ -99,9 +99,9 @@ const testimonialsData = [
   {
     img: "/certs/dio.png",
     company: "Digital Innovation One",
-    title: "Competências: Express.js Node.js",
+    title: "Fundamentos e arquitetura de sistemas",
     cert: true,
-    link:"",
+    link:"https://certificates.digitalinnovation.one/07B441EA",
 
   },
 ];
