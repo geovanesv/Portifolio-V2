@@ -13,7 +13,7 @@ const testimonialsData = [
     company: "Udemy",
     title: "Entenda o Inertia e crie com Laravel, Vue uma SPA",
     cert: true,
-    link:"",
+    link:"https://www.udemy.com/certificate/UC-7cc3d8f3-0ee3-4f59-8497-b4c2c5a9418e/",
   },
 
   {
@@ -21,7 +21,7 @@ const testimonialsData = [
     company: "Digital Innovation One",
     title: "Eduzz Fullstack Developer",
     cert: true,
-    link:"",
+    link:"https://www.dio.me/certificate/ADB6A761/share",
   },
 
   {
@@ -108,9 +108,9 @@ const testimonialsData = [
   {
     img: "/certs/dio.png",
     company: "Digital Innovation One",
-    title: "Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces",
+    title:"JavaScript ES6 essencial",
     cert: true,
-    link:"",
+    link:"https://certificates.digitalinnovation.one/3C65DD37",
 
   },
 

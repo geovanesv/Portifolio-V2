@@ -8,7 +8,7 @@ import { useState } from "react";
 export const navItems = [
   {
     link: "about",
-    title: "About",
+    title: "Sobre",
   },
   {
     link: "skills",
@@ -16,15 +16,15 @@ export const navItems = [
   },
   {
     link: "projects",
-    title: "Projects",
+    title: "Projetos",
   },
   {
     link: "certificates",
-    title: "Certificates",
+    title: "Certificados",
   },
   {
     link: "contact",
-    title: "Contact",
+    title: "Contato",
   },
 ];
 
