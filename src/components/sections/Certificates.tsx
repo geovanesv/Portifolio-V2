@@ -104,6 +104,17 @@ const testimonialsData = [
     link:"https://certificates.digitalinnovation.one/07B441EA",
 
   },
+
+  {
+    img: "/certs/dio.png",
+    company: "Digital Innovation One",
+    title: "Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces",
+    cert: true,
+    link:"",
+
+  },
+
+  
 ];
 
 const disabled_link =
