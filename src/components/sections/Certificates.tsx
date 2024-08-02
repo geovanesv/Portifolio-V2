@@ -9,6 +9,57 @@ import { useInView } from "react-intersection-observer";
 const testimonialsData = [
   
   {
+    img: "/certs/dio.png",
+    company: "Digital Innovation One",
+    title: "Microsserviços e Integrações com Node.js",
+    cert: true,
+    link:"https://www.dio.me/certificate/56E5E50E",
+  
+  },
+
+  {
+    img: "/certs/dio.png",
+    company: "Digital Innovation One",
+    title: "Design Patterns com Java: Dos Clássicos (GoF) ao Spring Framework",
+    cert: true,
+    link:"https://hermes.dio.me/certificates/61HKEYGC.pdf",
+  },
+
+  {
+    img: "/certs/rocketseat.png",
+    company: "Rocketseat",
+    title: "Fundamentos do Node.js",
+    cert: true,
+    link:"https://app.rocketseat.com.br/certificates/c8e9e5f6-9968-4dc1-8e77-3c22c09345f4",
+  },
+
+  
+  {
+    img: "/certs/dio.png",
+    company: "Digital Innovation One",
+    title: "Adicionando Segurança a uma API REST com Spring Security",
+    cert: true,
+    link:"https://hermes.dio.me/certificates/QXGJONIN.pdf",
+  },
+  
+  {
+    img: "/certs/rocketseat.png",
+    company: "Rocketseat",
+    title: "Minicurso de Java",
+    cert: true,
+    link:"https://app.rocketseat.com.br/certificates/5ed6a230-ed80-4171-b677-6f961af311aa",
+  },
+
+  {
+    img: "/certs/dio.png",
+    company: "Digital Innovation One",
+    title: "Criando uma API REST Documentada com Spring Web e Swagger",
+    cert: true,
+    link:"https://hermes.dio.me/certificates/I6FHFBOF.pdf",
+  },
+
+  
+  {
     img: "/certs/udemy.png",
     company: "Udemy",
     title: "Entenda o Inertia e crie com Laravel, Vue uma SPA",
@@ -24,14 +75,6 @@ const testimonialsData = [
     link:"https://www.dio.me/certificate/ADB6A761/share",
   },
 
-  {
-    img: "/certs/dio.png",
-    company: "Digital Innovation One",
-    title: "Microsserviços e Integrações com Node.js",
-    cert: true,
-    link:"https://www.dio.me/certificate/56E5E50E",
-
-  },
   
   {
     img: "/certs/dio.png",
@@ -126,7 +169,7 @@ const enabled_link =
 const TestimonialSlider = () => {
   const [ref, inView, entry] = useInView({
     triggerOnce: true, // Animation will trigger only once when it comes into view
-    threshold: 0.5, // Percentage of element visible to trigger the animation
+    threshold: 0.9, // Percentage of element visible to trigger the animation
   });
 
   const [currentTestimonialIndex, setCurrentTestimonialIndex] = useState(0);
@@ -145,7 +188,7 @@ const TestimonialSlider = () => {
   };
 
   useEffect(() => {
-    const interval = setInterval(nextTestimonial, 5000);
+    const interval = setInterval(nextTestimonial, 3000);
     return () => clearInterval(interval);
   }, []);
 

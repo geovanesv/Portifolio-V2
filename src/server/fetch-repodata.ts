@@ -3,11 +3,15 @@ export const revalidate = 3600 * 4 // revalidate the data at most every 4 hour
 
 export const projects = [
   "psicologa-eduarda-mendes",
-  "controle-financeiro",
   "Api-Ecommerce-Nest",
+  "padroes-projeto-java-spring",
+  "controle-financeiro",
   "app_Inventario",
   "Laravel-Inertia-Vue",
   "ecommerce-backend",
+  "Book-Nest-Prisma",
+  "react-login"
+
 ];
 
 export const fetchMeta = async (project: string) => {

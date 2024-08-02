@@ -43,7 +43,7 @@ function About() {
           <p style={{textAlign:"justify"}}> 
           Olá eu sou Geovane Araujo, um desenvolvedor entusiasmado que se dedica a criar soluções inovadoras para impulsionar a
           experiência do usuário e resolver problemas de maneira eficiente. Com uma formação em Ciência da Computação pelo Instituto Federal do Ceará,
-          concentrei meus estudos no desenvolvimento FullStack, priorizando tecnologias como NodeJS, NestJS, ReactJS, NextJS, Laravel, VueJS, Docker, Mysql, PostgreSQL, MongoDB.
+          concentrei meus estudos no desenvolvimento FullStack, priorizando tecnologias como Java, Spring Boot, NodeJS, NestJS, AngularJS, ReactJS, Laravel, Docker, Mysql, PostgreSQL, MongoDB.
           estou constantimente em busca de desafios que impulsionem meu crescimento profissional.
           </p>
         </motion.div>

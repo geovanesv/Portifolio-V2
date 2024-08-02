@@ -6,21 +6,24 @@ import { useInView } from "react-intersection-observer";
 
 
 const skills = [
+  
   {
-    title: "Next.js",
-    logo: "https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-y563b8iq.png",
+    title: "Spring Boot",
+    logo: "https://static-00.iconduck.com/assets.00/spring-icon-256x256-2efvkvky.png",
     details: "",
     confidence: 1,
   },
+
   {
-    title: "React.js",
-    logo: "https://static-00.iconduck.com/assets.00/react-icon-2048x2048-o8k3ymqa.png",
+    title: "Angular",
+    logo: "https://static-00.iconduck.com/assets.00/file-type-angular-icon-90x96-6dvemgrj.png",
     details: "",
     confidence: 1,
   },
+  
   {
-    title: "TailwindCSS",
-    logo: "https://pbs.twimg.com/profile_images/1730334391501488129/G0R0sjHH_400x400.jpg",
+    title: "TypeScript",
+    logo: "https://seekvectors.com/files/download/TYPE%20SCRIPT%20LOGO.png",
     details: "",
     confidence: 1,
   },
@@ -30,21 +33,24 @@ const skills = [
     details: "",
     confidence: 1,
   },
-  {
-    title: "TypeScript",
-    logo: "https://seekvectors.com/files/download/TYPE%20SCRIPT%20LOGO.png",
-    details: "",
-    confidence: 1,
-  },
-  {
-    title: "Docker",
-    logo: "https://static-00.iconduck.com/assets.00/docker-icon-96x69-f2zgm2tb.png",
-    details: "",
-    confidence: 0,
-  },
+
   {
     title: "NestJS",
     logo: "https://static-00.iconduck.com/assets.00/nestjs-plain-icon-96x96-e8vg3rjl.png",
+    details: "",
+    confidence: 0,
+  },
+
+  {
+    title: "Next.js",
+    logo: "https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-y563b8iq.png",
+    details: "",
+    confidence: 0,
+  },
+
+  {
+    title: "Docker",
+    logo: "https://static-00.iconduck.com/assets.00/docker-icon-96x69-f2zgm2tb.png",
     details: "",
     confidence: 0,
   },
